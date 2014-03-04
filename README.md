@@ -1,5 +1,7 @@
 # "Alakazam", a build system for CITE Audio services #
 
+** Status: Initial fork. All code, except for this README, is unchanged as yet.**
+
 A fork of "Now You See It", a build system for CITE Image services
 
 `alakazam` generates RDF statements from a collection CITE Images using the RDF vocabulary expected by the `sparqlcts` implementation of CITE Image Services.
