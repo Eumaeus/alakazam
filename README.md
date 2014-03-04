@@ -1,18 +1,20 @@
-# "Now you see it":  a build system for CITE Image services #
+# "Alakazam", a build system for CITE Audio services #
 
-`nysi` generates RDF statements from a collection CITE Images using the RDF vocabulary expected by the `sparqlcts` implementation of CITE Image Services.
+A fork of "Now You See It", a build system for CITE Image services
 
-Initially, `nysi` supports data in locally stored `csv` files.  It could easily expand to include Google Fusion Tables and local `tsv` files as data sources.
+`alakazam` generates RDF statements from a collection CITE Images using the RDF vocabulary expected by the `sparqlcts` implementation of CITE Image Services.
+
+Initially, `alakazam` supports data in locally stored `csv` files.  It could easily expand to include Google Fusion Tables and local `tsv` files as data sources.
 
 
 ## Data sources ##
 
 
-*Image collections* should be documented with three properties:
+*Audio collections* should be documented with three properties:
 
 1. A unique CITE URN
 2. A labelling description
-3. A path where pyramidal source files are stored.
+3. A URL (local or remote) to a directory where .mp3 source files are stored.
 
 *Individual images* should be documented with three properties:
 
