@@ -1,6 +1,6 @@
 # "Alakazam", a build system for CITE Audio services #
 
-** Status: Initial fork. All code, except for this README, is unchanged as yet.**
+**Status: Initial fork. All code, except for this README, is unchanged as yet.**
 
 A fork of "Now You See It", a build system for CITE Image services
 
